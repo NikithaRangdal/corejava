@@ -10,5 +10,7 @@ public class Thiskeyworddemo {
 	}
     public static void main(String[] args) {
     	Thiskeyworddemo f=new Thiskeyworddemo(1,"r");
+    	System.out.println(f.name);
+    	System.out.println(f.rollno);
     }
 }

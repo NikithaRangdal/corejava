@@ -32,6 +32,11 @@ public class Customer {
 	public void setCustomercity(String customercity) {
 		this.customercity = customercity;
 	}
+	@Override
+	public String toString() {
+		return "Customer [customername=" + customername + ", customerid=" + customerid + ", customercity="
+				+ customercity + "]";
+	}
 	
 
 }

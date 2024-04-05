@@ -13,10 +13,15 @@ public static void main(String[] args) {
 	String s=sc.nextLine();
 	
 	Customer c=new Customer();
+	
 	c.setCustomername(n);
 	c.setCustomerid(i);
 	c.setCustomercity(s);
 	
 	System.out.println(c);
+	
+	boolean t= c instanceof Customer;
+	System.out.println(t);
+
 }
 }
