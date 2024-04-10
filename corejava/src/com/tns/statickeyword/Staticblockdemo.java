@@ -2,11 +2,11 @@ package com.tns.statickeyword;
 
 public class Staticblockdemo {
 	static {
-		System.out.println("welcome to java");
+		System.out.println("Goodmorning everyone");
 	}
 	public static void main(String[] args) {
 		
-		System.out.println("hello everyone");
+		System.out.println("Welcome to java");
 	}
 
 
